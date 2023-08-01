@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+
+    <style>
+        .navbar {
+            background-color: rgb(97, 142, 173);
+            /*  inatilize text background  */
+            color: whitesmoke;
+            margin: 4px 4px;
+            border-radius: 30px;
+        }
+
+        .navbar ul {
+            /* if we comment this statement then we see all background color , color is removed  */
+            overflow: auto;
+            /*Display text which we inserted*/
+        }
+
+        .navbar li {
+            color: aliceblue;
+            list-style: none;
+            /*  Remove bullets from text!! */
+            float: left;
+            padding: 3px 3px;
+            margin: 10px;
+
+
+            /* height: 15px; */
+        }
+
+        .navbar li a {
+            cursor: pointer;
+            margin: 2px 2px;
+            color: aliceblue;
+        }
+
+        .Search {
+            float: right;
+            padding: 10px 55px;
+            /* border: none; */
+        }
+
+        .navbar input {
+            border: none;
+            border-radius: 5px;
+            padding: 2px 13px;
+        }
+
+        .navbar li a:hover {
+            color: rgba(87, 240, 240, 0.938);
+
+        }
+
+        a {
+            text-decoration: none;
+            /*    by this we an remove the underline of text    */
+
+        }
+
+
+        /*                         Next Css starts                              */
+
+
+        .container {
+            border: 4px solid rgb(125, 117, 236);
+            background-color: rgb(242, 242, 248);
+            border: none;
+            padding: 15px 15px;
+            width: 1140px;
+            margin: 10px 22px;
+            text-align: center;
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 20px 25px;
+        }
+
+        .comp {
+            border: 28px solid lightblue;
+            margin: 10px 22px;
+            padding: 16px 330px;
+
+
+        }
+        h1{
+            width: 200px;
+            margin:auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+
+                <li><a href="https://www.microsoft.com/en-in/microsoft-365?rtc=1" target="_blank">Microsoft365</a></li>
+                <li><a href="https://www.microsoft.com/en-in/microsoft-teams/group-chat-software?rtc=1"
+                        target="_blank">Teams</a></li>
+                <li><a href="https://www.microsoft.com/en-in/windows/?r=1" target="_blank">Windows</a></li>
+                <li><a href="https://www.microsoft.com/en-in/surface" target="_blank">Surface</a></li>
+                <li><a href="https://www.xbox.com/en-IN/" target="_blank">XBox</a></li>
+                <li><a href="https://support.microsoft.com/en-us" target="_blank">Support</a></li>
+
+                <div class="Search">
+                    <label for="text"></label>
+                    <input type="text" name="search" id="text" placeholder="Search on page">
+                </div>
+            </ul>
+
+        </nav>
+    </header>
+    <!-- next    -->
+
+    <div class="container">
+        <h1>This is Store!</h1>
+        <div>
+            <h3 class="Accessories">Accessories</h3>
+            <p id="Computers" class="comp">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum amet, natus quidem voluptas aliquid
+                minima, quaerat quas velit pariatur earum dolorem. Repudiandae corporis natus quasi reprehenderit,
+                excepturi iste nihil sequi!
+            </p>
+        </div>
+        <div>
+            <h3>Bootstrap</h3>
+            <p id="Boot" class="comp">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum natus sit dolorum maxime? Iure autem
+                accusamus id! Est aliquam harum voluptatem iste suscipit rerum ex, expedita, sunt assumenda ab repellat!
+            </p>
+        </div>
+        <div>
+            <h3>Mac</h3>
+            <p id="ther" class="comp">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quod cumque quidem minima veniam unde,
+                placeat eligendi nemo commodi consectetur magnam ad tenetur totam expedita sint dolore. Minima, adipisci
+                earum!s
+            </p>
+        </div>
+        <div>
+            <h3>Laptops</h3>
+            <p id="lodu" class="comp">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est excepturi, ut harum vero asperiores amet consectetur? Vel, enim. Earum neque itaque ipsum repudiandae porro dolorem dignissimos inventore debitis id delectus Lorem ipsum dolor sit amet consectetur.
+            </p>
+        </div>
+        <div>
+            <h3>Pens</h3>
+            <p id="chand" class="comp">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo maiores assumenda dolor molestiae
+                nemo modi molestias corrupti, obcaecati ipsam quod facilis at magnam, sapiente dicta debitis ad tempora
+                voluptate reiciendis fugiat ex quasi. Iure sit vero consequuntur! Non, reprehenderit repellat.
+            </p>
+        </div>
+
+    </div>
+</body>
+
+</html>
